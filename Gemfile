@@ -52,6 +52,8 @@ gem 'toastr-rails'
 gem 'uglifier', '>= 1.3.0'
 #For pagination styling, matching the pagination style of twitter
 gem 'will_paginate-bootstrap4'
+#for admin
+# gem 'rails_admin', '~> 2.0'
 
 
 group :development, :test do
