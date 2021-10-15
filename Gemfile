@@ -10,7 +10,7 @@ gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
+gem 'sass-rails'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -27,6 +27,32 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
+
+gem 'devise'
+#Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends.
+gem 'carrierwave', '~> 1.0'
+#Cloudinary is a cloud service that offers a solution to a web application's entire image management pipeline.
+gem 'cloudinary'
+#CoffeeScript adapter for the Rails asset pipeline.
+gem 'coffee-rails', '~> 4.2'
+#a great JS File upload by Matias Meno, to the Rails Asset pipeline.
+gem 'dropzonejs-rails'
+#ENV file
+gem "figaro"
+#jQuery 1, 2 and 3 - to automate using jQuery with rails
+gem 'jquery-rails'
+#for meta-tag.rb file
+gem 'meta-tags'
+#Multi-provider authentication for web applications.
+gem 'omniauth', '~> 1.6'
+gem 'omniauth-twitter'
+#Javascript library for non-blocking notifications.
+gem 'toastr-rails'
+#Ruby wrapper for UglifyJS JavaScript compresso
+gem 'uglifier', '>= 1.3.0'
+#For pagination styling, matching the pagination style of twitter
+gem 'will_paginate-bootstrap4'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
